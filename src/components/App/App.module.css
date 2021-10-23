@@ -1,3 +1,22 @@
 .app {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 100vh;
+
+
+  background-image: url(https://lolstatic-a.akamaihd.net/rso-login-page/3.1.2/assets/riot_desktop_background_2x.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  @import url(//fast.fonts.net/t/1.css?apiType=cssprojectid=dce2cd3c-2b49-496c-8fe8-f7eedea7aa2b);
+  font-family: 'FF Mark W05', sans-serif;
+}
+
+.app > * {
+  width: 550px;
+  margin: 0 20px;
 }
