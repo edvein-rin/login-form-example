@@ -6,6 +6,7 @@ import reportWebVitals from 'reportWebVitals'
 import App from 'components/App'
 
 import 'normalize.css'
+import 'modern-css-reset'
 
 ReactDOM.render(
   <React.StrictMode>
