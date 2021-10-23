@@ -28,7 +28,9 @@
     "test": "yarn lint && react-scripts test",
     "eject": "react-scripts eject",
     "lint": "yarn run eslint . --ext \".js,.ts,.jsx,.tsx\"",
-    "lint:fix": "yarn lint --fix"
+    "lint:fix": "yarn lint --fix",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
